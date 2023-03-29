@@ -108,10 +108,3 @@ To publish your Jupyter Book on a custom domain like `atrawog.org`, follow these
 6. After the DNS settings have propagated (which can take up to 24-48 hours), your Jupyter Book should be accessible at your custom domain (e.g., `https://atrawog.org`).
 
 Please note that the steps above assume that you want to host your Jupyter Book on the root of your custom domain. If you want to host it under a subdomain or subdirectory, you'll need to adjust the DNS settings and `CNAME` file accordingly. You can find more information in the [GitHub Pages documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
-
-```{admonition} Me
-:class: tip
-That's almost perfect and I'd like to get a single page of our whole conversion from the beginning.
-```
-
-The above MyST Markdown text includes the full conversation from the beginning, including the last prompt. You can copy and paste this into a MyST Markdown file and render it with Jupyter Book.
