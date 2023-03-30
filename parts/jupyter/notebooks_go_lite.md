@@ -28,6 +28,13 @@ To integrate JupyterLite into a Jupyter Book, you need to follow these steps:
    mv _static/jupyterlite-0.1.0-alpha.11 _static/jupyterlite
    ```
 
+```{note}
+The latest release of jupyterlite is v0.1.0b22 and the currect commands are:
+wget https://github.com/jupyterlite/jupyterlite/releases/download/v0.1.0b22/jupyterlite-0.1.0b22.tar.gz
+tar -xzf jupyterlite-0.1.0b22.tar.gz -C ./_static/
+mv _static/jupyterlite-0.1.0-alpha.11 _static/jupyterlite
+```
+
    b. In the `_static` folder, create a new file named `jupyterlite.js` with the following content:
 
    ```javascript

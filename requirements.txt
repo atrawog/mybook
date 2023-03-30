@@ -1,6 +1,10 @@
 jupyter-book
+jupytext
+jupyterlite
 matplotlib
 numpy
 pandas
 quantecon
+altair
+
 
